@@ -21,7 +21,7 @@ public class Application {
 		return args -> {
 			usuarioRepository.saveAll(List.of(
 					new Usuario(null, "Gabriel Silva", "gabriel.silva@email.com", "senha123"),
-					new Usuario(null, "Rafaela Souza", "viviane.souza@email.com", "senha123"),
+					new Usuario(null, "Rafaela Souza", "rafael.souza@email.com", "senha123"),
 					new Usuario(null, "Lucas Pereira", "lucas.pereira@email.com", "senha123"),
 					new Usuario(null, "Mariana Oliveira", "mariana.oliveira@email.com", "senha123"),
 					new Usuario(null, "Rafael Costa", "rafael.costa@email.com", "senha123"),
